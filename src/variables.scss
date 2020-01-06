@@ -1,0 +1,19 @@
+$firstColor: #53d4e5;
+$secondColor: #1babcc;
+$fontColor: #f5f5f5;
+$textColor: #0a0a0a;
+
+%h1titleStyles {
+   font-size: 22px;
+   font-weight: 700;
+}
+%h2titleStyles {
+   font-size: 20px;
+   font-weight: 700;
+}
+%textStyles {
+   font-size: 16px;
+}
+%smallTextStyles {
+   font-size: 14px;
+}

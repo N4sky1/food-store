@@ -1,0 +1,45 @@
+@import '../../variables.scss';
+
+.foodstuff__products-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.foodstuff__product-image {
+  img {
+    width: auto;
+    height: 130px;
+  }
+}
+.foodstuff__product-title {
+  @extend %h2titleStyles;
+  margin-bottom: 20px;
+}
+.foodstuff__product-description {
+  @extend %textStyles;
+  min-height: 40px;
+}
+.foodstuff__price-wrap {
+  display: flex;
+  align-items:center;
+  margin-top:20px;
+}
+.foodstuff__product-price {
+  @extend %h2titleStyles;
+  margin-right: 5px;
+  width:100px;
+}
+.foodstuff__product-btn {
+  padding: 10px 20px;
+  cursor:pointer;
+  background-color: $secondColor;
+  border: none;
+  border-radius:30px;
+  @extend %smallTextStyles;
+  transition:0.3s;
+  color: $fontColor;
+  &:hover {
+    box-shadow: 2px 2px 19px 0px $firstColor;
+    background-color: $firstColor;
+  }
+}

@@ -1,0 +1,38 @@
+@import '../../variables.scss';
+
+.foodstuff__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $fontColor;
+  height: 90px;
+  padding: 0 40px 0 20px;
+  a {
+    text-decoration: none;
+  }
+}
+.foodstuff__logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: $firstColor;
+}
+.foodstuff__shopping-cart {
+  img {
+    width:50px;
+    height: auto;
+  }
+}
+.foodstuff__cart-image-wrap {
+  cursor:pointer;
+  display: flex;
+  span {
+    @extend %smallTextStyles;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    height: 20px;
+    border: 1px solid $firstColor;
+    border-radius: 15px;
+  }
+}

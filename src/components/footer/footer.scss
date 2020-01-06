@@ -1,0 +1,14 @@
+@import '../../variables.scss';
+
+.foodstuff__footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 45px;
+    background-color: $fontColor;
+    padding-right: 40px;
+    span {
+        @extend %smallTextStyles;
+    }
+}
