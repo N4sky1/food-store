@@ -1,6 +1,6 @@
 
 export default class FoodstuffstoreService {
-
+  test = '';
   data = [];
 
   getFoodstuffs = async () => {
