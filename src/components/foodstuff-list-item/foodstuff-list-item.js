@@ -12,11 +12,11 @@ const FoodstuffListItem = ({ foodstuff, onAddedToCart }) => {
         <span className="foodstuff__product-title">{title}</span>
         <div className="foodstuff__product-description">{description}</div>
         <div className="foodstuff__price-wrap">
-          <div className="foodstuff__product-price">{price} руб/кг</div>
+          <div className="foodstuff__product-price">{price} $/lb</div>
           <button
             onClick={onAddedToCart}
             className="foodstuff__product-btn">
-            Добавить в корзину
+            Add to cart
           </button>
         </div>
         

@@ -18,12 +18,12 @@ const ShoppingCartTable = ({ items, total, onIncrease, onDecrease, onDelete }) =
           onClick={() => onDecrease(id)}
           className="shopping-info__btn shopping-info__decrease-btn">
         </div>
-        <div className="shopping-info__count">{count} кг</div>
+        <div className="shopping-info__count">{count} lb</div>
         <div
           onClick={() => onIncrease(id)}
           className="shopping-info__btn shopping-info__increase-btn">
         </div>
-        <div className="shopping-info__total">{total} руб</div>
+        <div className="shopping-info__total">{total} $</div>
         <div
           onClick={() => onDelete(id)}
           className="shopping-info__btn shopping-info__delete-btn">
@@ -34,13 +34,13 @@ const ShoppingCartTable = ({ items, total, onIncrease, onDecrease, onDelete }) =
 
   return (
     <div className="foodstuff__shopping-info shopping-info">
-      <h2>Ваши покупки</h2>
+      <h2>Your purchases</h2>
       <ul className="shopping-info__list">
         { items.map(renderRow) }
       </ul>
 
       <div className="shopping-info__total-cost">
-        всего {total} руб
+        total {total} $
       </div>
 
       <div className="shopping-info__close"></div>

@@ -8,7 +8,7 @@ import { openCartInfo } from '../../actions';
 const Header = ({ totalItems, cartInfo, openCartInfo }) => {
   return (
     <header className="foodstuff__header">
-      <div className="foodstuff__logo">ПроDукто</div>
+      <div className="foodstuff__logo">FooDo</div>
       <div className="foodstuff__shopping-cart">
         <div 
           className="foodstuff__cart-image-wrap"
@@ -17,7 +17,7 @@ const Header = ({ totalItems, cartInfo, openCartInfo }) => {
             src={shoppingCartImage} 
             alt="shopping-cart"/>
           <span>
-            {totalItems} кг
+            {totalItems} lb
           </span>
         </div>
         
