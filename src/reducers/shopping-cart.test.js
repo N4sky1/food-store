@@ -5,7 +5,7 @@ let newFoodstuffList = {
         {
             "id": "1",
             "title": "Томаты",
-            "image": "https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c23b.png",
+            "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c23b.png",
             "description": "Свежие, органические помидоры, сладкий сорт",
             "price": "110"
         },

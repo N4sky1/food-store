@@ -4,7 +4,7 @@ export default class FoodstuffstoreService {
   data = [];
 
   getFoodstuffs = async () => {
-    const url = 'http://www.mocky.io/v2/5e1d763a3600002b00c74068'
+    const url = 'https://run.mocky.io/v3/cae2174e-5802-41e7-8a3c-38c0f132cf7d'
     const res = await fetch(url)
     if (!res.ok) {
         throw new Error(url.status)
